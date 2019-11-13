@@ -11,6 +11,6 @@ import Vulture
 
 extension VultureNativeAPI {
     public enum MineVulture {
-        
+        case showPersonalCenter
     }
 }
