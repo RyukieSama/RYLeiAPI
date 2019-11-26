@@ -13,7 +13,7 @@ extension VultureNativeAPI {
     
     public enum GameVulture {
         case enterBaseGameLevel(levelRaw: Int)
-        case enterEndlessGame(level: Int)
+        case enterEndlessGame(level: Int64)
         case enterMineGame(row: Int, column: Int, number: Int)
     }
     
