@@ -13,5 +13,6 @@ extension VultureNativeAPI {
     public enum MineVulture {
         case showPersonalCenter
         case showHistory
+        case about
     }
 }
