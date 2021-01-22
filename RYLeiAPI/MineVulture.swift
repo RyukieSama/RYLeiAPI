@@ -12,7 +12,8 @@ import Vulture
 extension VultureNativeAPI {
     public enum MineVulture {
         case showPersonalCenter
-        case showHistory
+        case showHistory(userID: String?)
         case about
+        case showMissonCenter
     }
 }
